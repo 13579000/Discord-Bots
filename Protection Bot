@@ -1,0 +1,9 @@
+const Discord = require('discord.js')
+const client = new Discord.Client(529126082746777601)
+
+client.on('ready', () => {
+    var generalChannel = client.channels.get("527287104762544128") // Replace with known channel ID
+    generalChannel.send("Hello I am here to protect your server")  
+})
+
+client.login("NTI5MTI2MDgyNzQ2Nzc3NjAx.Dwsa-w.ys7G7EzFM4lM5pOnWTzQF3mezOA") // Replace XXXXX with your bot token
